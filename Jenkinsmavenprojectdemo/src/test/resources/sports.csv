@@ -1,0 +1,7 @@
+skiptest,testrownumber,username,password,expectedmess,usernameerrormess,Passworderrormess,signinerrormess,expectedpage,expectedafterlogin,crickpageverification,impverification
+FALSE,1,,12345,TRUE,This field is required.,,,FALSE,,,
+TRUE,2,admin,,TRUE,,This field is required.,,FALSE,,,
+TRUE,3,admin,12345,TRUE,,,"Login Failed, Invalid login credentials.",FALSE,,,
+TRUE,4,admin,123456,TRUE,,,,TRUE,What's Trending!!,,
+TRUE,5,admin,123456,TRUE,,,,TRUE,,Important Articles,
+TRUE,6,admin,123456,TRUE,,,,TRUE,,,"Sreesanth Permitted To Practice In Kochi Stadium, Says Greater Cochin Development Authority"

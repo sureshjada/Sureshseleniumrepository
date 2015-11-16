@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="0" total="6" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="96367" started-at="2015-11-16T05:19:27Z" finished-at="2015-11-16T05:21:04Z">
+    <groups>
+      <group name="firefox">
+        <method signature="SportsTestcases.endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="endToEndFlorida_firefox" class="Testcases.SportsTestcases"/>
+        <method signature="SportsTestcases.endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@2142b533]" name="endToEndFlorida_firefox" class="Testcases.SportsTestcases"/>
+        <method signature="SportsTestcases.endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@22863854]" name="endToEndFlorida_firefox" class="Testcases.SportsTestcases"/>
+        <method signature="SportsTestcases.endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@2f4611ec]" name="endToEndFlorida_firefox" class="Testcases.SportsTestcases"/>
+        <method signature="SportsTestcases.endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@4ea10ca8]" name="endToEndFlorida_firefox" class="Testcases.SportsTestcases"/>
+        <method signature="SportsTestcases.endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@6c10fa4d]" name="endToEndFlorida_firefox" class="Testcases.SportsTestcases"/>
+      </group> <!-- firefox -->
+    </groups>
+    <test name="Simple search for Florida state ETE Test with User login - Firefox" duration-ms="96367" started-at="2015-11-16T05:19:27Z" finished-at="2015-11-16T05:21:04Z">
+      <class name="Testcases.SportsTestcases">
+        <test-method status="PASS" signature="launch()[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="launch" is-config="true" duration-ms="4" started-at="2015-11-16T10:49:27Z" finished-at="2015-11-16T10:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="endToEndFlorida_firefox" duration-ms="26585" started-at="2015-11-16T10:49:27Z" finished-at="2015-11-16T10:49:54Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[[skipTest]=[true];skiping iteration]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: [skipTest]=[true];skiping iteration
+	at Testcases.SportsTestcases.SportTest(SportsTestcases.java:105)
+	at Testcases.SportsTestcases.endToEndFlorida_firefox(SportsTestcases.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndFlorida_firefox -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="closeBrowser" is-config="true" duration-ms="18" started-at="2015-11-16T10:49:54Z" finished-at="2015-11-16T10:49:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=endToEndFlorida_firefox status=SKIP method=SportsTestcases.endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@19dc2481] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="launch" is-config="true" duration-ms="0" started-at="2015-11-16T10:49:54Z" finished-at="2015-11-16T10:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@2142b533]" name="endToEndFlorida_firefox" duration-ms="9853" started-at="2015-11-16T10:49:54Z" finished-at="2015-11-16T10:50:04Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[[skipTest]=[true];skiping iteration]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: [skipTest]=[true];skiping iteration
+	at Testcases.SportsTestcases.SportTest(SportsTestcases.java:105)
+	at Testcases.SportsTestcases.endToEndFlorida_firefox(SportsTestcases.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndFlorida_firefox -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="closeBrowser" is-config="true" duration-ms="9" started-at="2015-11-16T10:50:04Z" finished-at="2015-11-16T10:50:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=endToEndFlorida_firefox status=SKIP method=SportsTestcases.endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@2142b533] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="launch" is-config="true" duration-ms="1" started-at="2015-11-16T10:50:04Z" finished-at="2015-11-16T10:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@22863854]" name="endToEndFlorida_firefox" duration-ms="12588" started-at="2015-11-16T10:50:04Z" finished-at="2015-11-16T10:50:17Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[[skipTest]=[true];skiping iteration]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: [skipTest]=[true];skiping iteration
+	at Testcases.SportsTestcases.SportTest(SportsTestcases.java:105)
+	at Testcases.SportsTestcases.endToEndFlorida_firefox(SportsTestcases.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndFlorida_firefox -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="closeBrowser" is-config="true" duration-ms="8" started-at="2015-11-16T10:50:17Z" finished-at="2015-11-16T10:50:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=endToEndFlorida_firefox status=SKIP method=SportsTestcases.endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@22863854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="launch" is-config="true" duration-ms="0" started-at="2015-11-16T10:50:17Z" finished-at="2015-11-16T10:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@2f4611ec]" name="endToEndFlorida_firefox" duration-ms="5693" started-at="2015-11-16T10:50:17Z" finished-at="2015-11-16T10:50:22Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[[skipTest]=[true];skiping iteration]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: [skipTest]=[true];skiping iteration
+	at Testcases.SportsTestcases.SportTest(SportsTestcases.java:105)
+	at Testcases.SportsTestcases.endToEndFlorida_firefox(SportsTestcases.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndFlorida_firefox -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="closeBrowser" is-config="true" duration-ms="11" started-at="2015-11-16T10:50:22Z" finished-at="2015-11-16T10:50:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=endToEndFlorida_firefox status=SKIP method=SportsTestcases.endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@2f4611ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@4ea10ca8]" name="endToEndFlorida_firefox" duration-ms="9280" started-at="2015-11-16T10:50:22Z" finished-at="2015-11-16T10:50:32Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[[skipTest]=[true];skiping iteration]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: [skipTest]=[true];skiping iteration
+	at Testcases.SportsTestcases.SportTest(SportsTestcases.java:105)
+	at Testcases.SportsTestcases.endToEndFlorida_firefox(SportsTestcases.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndFlorida_firefox -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="launch" is-config="true" duration-ms="0" started-at="2015-11-16T10:50:22Z" finished-at="2015-11-16T10:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="closeBrowser" is-config="true" duration-ms="9" started-at="2015-11-16T10:50:32Z" finished-at="2015-11-16T10:50:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=endToEndFlorida_firefox status=SKIP method=SportsTestcases.endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@4ea10ca8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="launch" is-config="true" duration-ms="0" started-at="2015-11-16T10:50:32Z" finished-at="2015-11-16T10:50:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@6c10fa4d]" name="endToEndFlorida_firefox" duration-ms="32268" started-at="2015-11-16T10:50:32Z" finished-at="2015-11-16T10:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndFlorida_firefox -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Testcases.SportsTestcases@19dc2481]" name="closeBrowser" is-config="true" duration-ms="19" started-at="2015-11-16T10:51:04Z" finished-at="2015-11-16T10:51:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=endToEndFlorida_firefox status=SUCCESS method=SportsTestcases.endToEndFlorida_firefox()[pri:0, instance:Testcases.SportsTestcases@6c10fa4d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.SportsTestcases -->
+    </test> <!-- Simple search for Florida state ETE Test with User login - Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

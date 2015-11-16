@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="platform" value="Windows 8"/>
+  <parameter name="name" value="ETE Test - Firefox"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="version" value="26"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Simple search for Florida state ETE Test with User login - Firefox(failed)">
+    <parameter name="platform" value="Windows 8"/>
+    <parameter name="name" value="ETE Test - Firefox"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="26"/>
+    <groups>
+      <run>
+        <include name="firefox"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Testcases.SportsTestcases">
+        <methods>
+          <include name="launch"/>
+          <include name="endToEndFlorida_firefox"/>
+          <include name="endToEndFlorida_firefox"/>
+          <include name="endToEndFlorida_firefox"/>
+          <include name="endToEndFlorida_firefox"/>
+          <include name="endToEndFlorida_firefox"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Testcases.SportsTestcases -->
+    </classes>
+  </test> <!-- Simple search for Florida state ETE Test with User login - Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

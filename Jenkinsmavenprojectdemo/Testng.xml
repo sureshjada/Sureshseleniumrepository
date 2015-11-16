@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+   <test name="Simple search for Florida state ETE Test with User login - Firefox" >
+    <parameter name="name" value="ETE Test - Firefox" />
+    <parameter name="platform" value="Windows 8" />
+    <parameter name="browser" value="firefox" />
+    <parameter name="version" value="26" />
+    
+   
+     <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  
+	<groups>
+	    <run>
+	         <include name="firefox" />  
+	           
+	    </run>
+	</groups>
+	
+    <classes>      
+         <class name="Testcases.SportsTestcases" />  
+    </classes> 
+    
+  </test> 
+  </suite> 

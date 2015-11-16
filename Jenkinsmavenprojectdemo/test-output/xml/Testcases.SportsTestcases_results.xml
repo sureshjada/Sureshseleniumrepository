@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Simple search for Florida state ETE Test with User login - Firefox"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="5"
+           time="96.267">
+  <properties />
+  
+            <testcase name="endToEndFlorida_firefox" time="0.0" classname="Testcases.SportsTestcases">
+          <skipped />
+    </testcase>
+            <testcase name="endToEndFlorida_firefox" time="0.0" classname="Testcases.SportsTestcases">
+          <skipped />
+    </testcase>
+            <testcase name="endToEndFlorida_firefox" time="0.0" classname="Testcases.SportsTestcases">
+          <skipped />
+    </testcase>
+            <testcase name="endToEndFlorida_firefox" time="0.0" classname="Testcases.SportsTestcases">
+          <skipped />
+    </testcase>
+            <testcase name="endToEndFlorida_firefox" time="0.0" classname="Testcases.SportsTestcases">
+          <skipped />
+    </testcase>
+  
+            <testcase name="endToEndFlorida_firefox" time="32.268" classname="Testcases.SportsTestcases" />
+      
+</testsuite>
